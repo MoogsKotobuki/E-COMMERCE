@@ -51,7 +51,7 @@ function showProduct(id, Title, Price, image) {
         <h5 class="card-title"><strong>${Title}</strong></h5>
         <p class="card-text">₱${Price}</p>
         <a href="../pages/productOverview.html?id=${id}" class="btn btn-primary">Show Product</a>
-        <button class="btn btn-primary add-to-cart-btn" data-product-id="${id}">Add to Cart</button>
+        <button class="btn btn-primary add-to-cart-btn" data-product-id="${id}">Add</button>
       </div>
     </div>
   `;

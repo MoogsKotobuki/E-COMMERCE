@@ -5,7 +5,6 @@
     "price":["292.31"],
     "description":"An online and local party game of teamwork and betrayal for 4-15 players...in space!",
     "productType":"Games",
-    "multiPrice":false,
     "image":"../image/products/0.jpg",
     "optionName":"Platform",
     "options":
@@ -16,55 +15,60 @@
     
     ,{
     "id":1,
-    "title":"God of War II",
-    "price":["3,553.21","11,111.11"],
-    "multiPrice":false,
-    "description":"a third-person action-adventure video game where the player controls the vengeful anti-hero Kratos",
+    "title":"Persona 5 Royal",
+    "price":["3,195.00"],
+    "description":"Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
     "productType":"Games",
-    "image":"../image/products/1.jpg",
+    "image":"https://tiubangame.vn/wp-content/uploads/2025/07/aaa-1.jpg",
     "optionName":"Platform",
     "options":
         ["Switch","X-Box one","PS4","PC"],
-    "optionsPrice":[0,0,1,1],
+    "optionsPrice":[0,0,0,0],
     "stocks":100
     }
 
     ,{
     "id":2,
-    "title":"God of War",
-    "price":["995.00"],
+    "title":"Minecraft (PC)",
+    "price":["1,500.00","2,200.00"],
     "multiPrice":false,
-    "description":"a highly acclaimed action-adventure video game franchise known for its brutal combat and a story centered on the Spartan warrior Kratos",
+    "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
-    "image":"../image/products/2.jpg",
+    "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1bD2tQCi94-0n4Jo3zWbIuUIDP_179kkFhqzn7N_dYFe1mbP9nSpnLYLDyI1mTrd-PhchJmqEe5mzeHV5iXnoF48sxLzcdt0e_ewgKxw6od_Zh7iAsguq6Ck",
+    "optionName":"Edition",
     "options":
-        ["Switch","X-Box one","PS4","PC"],
+        ["Standard","Deluxe"],
+    "optionsPrice":[0,0],
     "stocks":100
     }
 
     ,{
     "id":3,
-    "title":"Cyberpunk 2077",
-    "price":["3,553.21"],
+    "title":"Minecraft (PC)",
+    "price":["1,500.00","2,200.00"],
     "multiPrice":false,
-    "description":"an open-world, action-adventure RPG where you play as V, a mercenary in the dystopian, neon-drenched metropolis of Night City",
+    "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
-    "image":"../image/products/3.jpg",
+    "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1bD2tQCi94-0n4Jo3zWbIuUIDP_179kkFhqzn7N_dYFe1mbP9nSpnLYLDyI1mTrd-PhchJmqEe5mzeHV5iXnoF48sxLzcdt0e_ewgKxw6od_Zh7iAsguq6Ck",
+    "optionName":"Edition",
     "options":
-        ["Switch","X-Box one","PS4","PC"],
+        ["Standard","Deluxe"],
+    "optionsPrice":[0,0],
     "stocks":100
     }
 
     ,{
     "id":4,
-    "title":"Left 4 Dead 2 ",
-    "price":["335.00"],
+    "title":"Minecraft (PC)",
+    "price":["1,500.00","2,200.00"],
     "multiPrice":false,
-    "description":"a cooperative first-person shooter horror game where four survivors fight zombies and special infected through the Deep South",
+    "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
-    "image":"../image/products/4.jpg",
+    "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1bD2tQCi94-0n4Jo3zWbIuUIDP_179kkFhqzn7N_dYFe1mbP9nSpnLYLDyI1mTrd-PhchJmqEe5mzeHV5iXnoF48sxLzcdt0e_ewgKxw6od_Zh7iAsguq6Ck",
+    "optionName":"Edition",
     "options":
-        ["Switch","X-Box one","PS4","PC"],
+        ["Standard","Deluxe"],
+    "optionsPrice":[0,0],
     "stocks":100
     }
 

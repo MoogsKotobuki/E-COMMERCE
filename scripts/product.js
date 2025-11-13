@@ -7,7 +7,7 @@ let id = param.get("id")
 //loading products database
 async function loadDB()
 {
-  const response = await fetch("../database/products.json");
+  const response = await fetch("https://moogskotobuki.github.io/database/products.json");
   const db = await response.json();
   return db;
 }

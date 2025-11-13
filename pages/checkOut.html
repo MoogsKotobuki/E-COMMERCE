@@ -4,11 +4,10 @@
     <!--Test Push -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Our Style -->
-    <link href="../styles/TechBot-Style/techbotstyle.css" rel="stylesheet">
-    <link href="../styles/payment.css" rel="stylesheet">
-    <!--Bootstrap 5 Library Styles-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Our Style -->
+    <link href="../styles/main.css" rel="stylesheet">
+    <!--Bootstrap 5 Library Styles-->
     <!--Apply icon side of the title -->
     <link rel="icon"  href="../images/favicon.ico" type="image/x-icon">
     <title>Checkout</title>
@@ -16,7 +15,7 @@
    <body>
 
    <nav
-        class="navbar navbar-expand-sm navbar-light custom-bgColor ">
+        class="navbar navbar-expand-sm navbar-dark   custom-primaryColor ">
         <div class="container">
             
             <a class="navbar-brand" href="#">TechShop</a>
@@ -65,7 +64,8 @@
 
     </nav>
     <!--Construct form for checkout the product -->
-
+    <div class="container mt-5 custom-bgColor">
+        
     <div class="checkoutcontainer">
         <h2>Checkout</h2>
         <div class="table-responsive">
@@ -79,9 +79,12 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="products">
                     <tr>
-                        <td>Product</td>
+                        <td>
+                            <img src="../image/PlaceHolder.png" height="50px" alt="">
+                            Product
+                        </td>
                         <td>₱0</td>
                         <td>
                             <input type="number" value="0" min="0" class="form-control" style="width: 80px;">
@@ -94,8 +97,11 @@
         </div>
         <div class="d-flex justify-content-between mt-3">
             <h4>Total: ₱0</h4>
-            <button class="btn btn-primary">Check Out</button>
+            <a class="btn btn-primary" href="../pages/payment.html">Check Out</a>
         </div>
     </div>
-
+    
+    </div>
+    <script type="module" src="../scripts/checkout.js"></script>
     </body>
+</html>

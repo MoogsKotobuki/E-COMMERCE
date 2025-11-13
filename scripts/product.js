@@ -26,7 +26,7 @@ const imag = document.getElementById('image');
 const option = document.getElementById('option');
 const quantity = document.getElementById('quantity')
 const addToCart = document.getElementById('addCart');
-
+const shoppingCart = document.getAnimations('cartAmount');
 
 //price Indicator tells which price to show relatively to an option
 let priceIndex = 0;
@@ -164,44 +164,65 @@ function ass()
 console.log(ass())
 
 function addProductToCart() {
-  // Ensure quantity and data exist
   if (!data || Quantity <= 0) {
     alert("Invalid quantity or product data.");
     return;
   }
 
-  // Create a cart item object
+  // Prepare the cart item
   const cartItem = {
     id: id,
     title: data.title,
-    price: intPrice,            // numeric price
+    price: intPrice, // Unit price stays the same
     optionSelected: previousSelection ? previousSelection.innerHTML : null,
     quantity: Quantity,
     image: data.image
   };
 
-  // Retrieve existing cart or create a new one
+  // Get existing cart or create empty array
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-  // Check if same product (and option) already exists in cart
+  // Find if same product + same option already exists
   const existingIndex = cart.findIndex(item =>
     item.id === id && item.optionSelected === cartItem.optionSelected
   );
 
   if (existingIndex > -1) {
-    // Update quantity
+    // Update quantity, but not the price (price is per unit)
     cart[existingIndex].quantity += Quantity;
+
+    // Keep price as unit price (not multiplied)
+    cart[existingIndex].price = intPrice;
   } else {
-    // Add new item
+    // Add new product entry
     cart.push(cartItem);
   }
 
-  // Save updated cart
+  // Save updated cart to localStorage
   localStorage.setItem("cart", JSON.stringify(cart));
 
-  // Optional confirmation
-  alert(`${data.title} added to cart!`);
-  console.log("Cart:", cart);
+  // Optional user feedback
+  alert(`${data.title} (${cartItem.optionSelected || 'Default'}) added to cart!`);
+
+  console.log("Updated cart:", cart);
+  updateCartCount();
 }
+updateCartCount();
 
 addToCart.addEventListener('click', addProductToCart);
+
+function updateCartCount() {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  let totalCount = 0;
+
+  // Sum up all quantities
+  cart.forEach(item => {
+    totalCount += item.quantity;
+  });
+
+  // Update the span element
+  const counter = document.getElementById("cartCount");
+  if (counter) {
+    counter.textContent = totalCount;
+  }
+}

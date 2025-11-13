@@ -49,18 +49,20 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="products.html?filter=1">Games</a></li>
                         <li><a class="dropdown-item" href="products.html?filter=2">Laptops</a></li>
-                        <li><a class="dropdown-item" href="products.html?filter=3">Accesories</a></li>
+                        <li><a class="dropdown-item" href="products.html?filter=3">Accessories</a></li>
                         <li><a class="dropdown-item" href="products.html?filter=4">PC Components</a></li>
                     </ul>
                     </div>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
-                    <button
+                    <a
                         class="btn btn-outline-success my-2 my-sm-0" style="margin: 20px;"
                         type="submit"
+                        href="../pages/checkOut.html"
                     >
-                        Shopping-Cart
-                    </button>
+                        <img src="../image/shoppingCart.svg" height="20px" class="shoppingCart"></img>
+                        <span class="badge text-bg-success" id="cartCount">0</span></h1>
+                </a>
             </div>
         </div>
     </nav>
@@ -81,10 +83,13 @@
                             </h2>
                             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                                 <div class="accordion-body">
-                                    <label for="customRange2" class="form-label">$Price</label>
-                                    <input type="range" class="form-range" min="0" max="2000" id="customRange2">
-                                    <input class="form-check-input" type="checkbox" value="" id="filter4" >
-                                    <label class="form-check-label" for="filter4">Price Filter</label>
+                                 <label for="customRange2" class="form-label">Price</label>
+                                <input type="range" class="form-range" min="0" max="5000" id="customRange2">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="priceCheck">
+                                    <label class="form-check-label" for="priceCheck">Enable Price Filter</label>
+                                </div>
+
                                 </div>
                             </div>
                         </div>
@@ -97,44 +102,36 @@
                             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                                 <div class="accordion-body">
                                     
-                                    <div class="form-check">
+                                        <div class="form-check">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter0">
-                                        <label class="form-check-label" for="filter1">
-                                            All
-                                        </label>
-                                    </div>
+                                        <label class="form-check-label" for="filter0">All</label>
+                                        </div>
 
-                                    <div class="form-check">
+                                        <div class="form-check">
                                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter1">
-                                        <label class="form-check-label" for="filter1">
-                                            Games
-                                        </label>
-                                    </div>
+                                        <label class="form-check-label" for="filter1">Games</label>
+                                        </div>
 
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter2" >
-                                        <label class="form-check-label" for="filter2">
-                                            Laptops
-                                        </label>
-                                    </div>
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter2">
+                                        <label class="form-check-label" for="filter2">Laptops</label>
+                                        </div>
 
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter3" >
-                                        <label class="form-check-label" for="filter3">
-                                            PC Components
-                                        </label>
-                                    </div>
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter3">
+                                        <label class="form-check-label" for="filter3">PC Components</label>
+                                        </div>
 
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter4" >
-                                        <label class="form-check-label" for="filter4">
-                                            Accesories
-                                        </label>
-                                    </div>
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="filter4">
+                                        <label class="form-check-label" for="filter4">Accessories</label>
+                                        </div>
+
                                     
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                             <button class="accordion-button collapsed accordion-h" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
@@ -163,6 +160,5 @@
      <script type="module" src="../scripts/productsContainer.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="AddToCart/product.js"></script>
 </body>
 </html>

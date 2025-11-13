@@ -57,25 +57,15 @@
                     </div>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
-                    <button
+                    <a
                         class="btn btn-outline-success my-2 my-sm-0" style="margin: 20px;"
                         type="submit"
+                        href="../pages/checkOut.html"
                     >
-                        Shopping-Cart
-                    </button>
+                        <img src="../image/shoppingCart.svg" height="20px" class="shoppingCart"></img>
+                        <span class="badge text-bg-success" id="cartCount">0</span></h1>
+                </a>
                 </form>
-                <form class="d-flex my-2 my-lg-0">
-
-                <img src="image/avatar.png" style="height: 20px; padding: 1px; margin: 4px;">
-                
-                </img>
-                <a class="nav-link active" href="#" aria-current="page"
-                        >Log-in
-                <span class="visually-hidden">(current)</span>
-                    </a>
-                </form>
-
-                
             </div>
         </div>
     </nav>
@@ -181,7 +171,28 @@
 
     <script src="scripts/message.js"></script>
 
+    <script>
 
+        updateCartCount();
+
+
+        function updateCartCount() {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let totalCount = 0;
+
+        // Sum up all quantities
+        cart.forEach(item => {
+            totalCount += item.quantity;
+        });
+
+        // Update the span element
+        const counter = document.getElementById("cartCount");
+        if (counter) {
+            counter.textContent = totalCount;
+        }
+        }
+
+    </script>
     <!-- Bootstap 5 Library Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

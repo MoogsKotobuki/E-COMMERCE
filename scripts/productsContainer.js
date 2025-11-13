@@ -3,7 +3,7 @@ const container = document.getElementById("pContainer")
 
 async function loadDB()
 {
-  const response = await fetch("https://moogskotobuki.github.io/E-COMMERCE/database/products.json");
+  const response = await fetch("https://raw.githubusercontent.com/MoogsKotobuki/E-COMMERCE/refs/heads/main/database/products.Json");
   const db = await response.json();
   return db;
 }

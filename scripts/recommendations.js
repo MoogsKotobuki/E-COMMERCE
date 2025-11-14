@@ -13,7 +13,7 @@ async function loadRecommendedProducts() {
         }, {});
 
         // Define the order of product types (matching your dropdown) - premade for Accessories and PC Components
-        const typeOrder = ['Games', 'Laptops', 'Accessories', 'PC Components'];
+        const typeOrder = ['Games', 'Laptop', 'Accessory', 'PC Component'];
         let html = '';
 
         typeOrder.forEach(type => {

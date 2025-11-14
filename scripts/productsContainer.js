@@ -20,9 +20,9 @@ const database = await loadDB();
 const filterMap = {
   "0": "All",
   "1": "Games",
-  "2": "Laptops",
-  "3": "PC Components",
-  "4": "Accessories"
+  "2": "Laptop",
+  "3": "PC Component",
+  "4": "Accessory"
 };
 
 // Initialize filters from URL

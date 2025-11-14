@@ -16,7 +16,7 @@
     ,{
     "id":1,
     "title":"Persona 5 Royal",
-    "price":["3,195.00"],
+    "price":["3195.00"],
     "description":"Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
     "productType":"Games",
     "image":"https://tiubangame.vn/wp-content/uploads/2025/07/aaa-1.jpg",
@@ -30,7 +30,7 @@
     ,{
     "id":2,
     "title":"Minecraft (PC)",
-    "price":["1,500.00","2,200.00"],
+    "price":["1500.00","2200.00"],
     "multiPrice":false,
     "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
@@ -45,7 +45,7 @@
     ,{
     "id":3,
     "title":"Minecraft (PC)",
-    "price":["1,500.00","2,200.00"],
+    "price":["1500.00","2200.00"],
     "multiPrice":false,
     "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
@@ -60,7 +60,7 @@
     ,{
     "id":4,
     "title":"Minecraft (PC)",
-    "price":["1,500.00","2,200.00"],
+    "price":["1500.00","2200.00"],
     "multiPrice":false,
     "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",

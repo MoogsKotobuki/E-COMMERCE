@@ -72,30 +72,187 @@
     "stocks":100
     }
 
-    ,{
+    ,[
+  {
+    "id":0,
+    "title":"Acer Aspire 5",
+    "price":["42999.00"],
+    "description":"A slim and lightweight laptop with a Ryzen 5 processor suitable for school and work.",
+    "productType":"Laptop",
+    "image":"../image/products/0.jpg",
+    "optionName":"Storage",
+    "options":["256GB SSD","512GB SSD","1TB SSD"],
+    "optionsPrice":[0,1500,3000],
+    "stocks":40
+  },
+  {
+    "id":1,
+    "title":"ASUS VivoBook 16X",
+    "price":["58999.00"],
+    "description":"A 16-inch productivity laptop with a powerful Ryzen 7 CPU for multitasking.",
+    "productType":"Laptop",
+    "image":"../image/products/1.jpg",
+    "optionName":"RAM",
+    "options":["8GB","16GB","32GB"],
+    "optionsPrice":[0,2000,5000],
+    "stocks":35
+  },
+  {
+    "id":2,
+    "title":"Lenovo IdeaPad Gaming 3",
+    "price":["68999.00"],
+    "description":"A gaming laptop equipped with RTX graphics and fast refresh rate display.",
+    "productType":"Laptop",
+    "image":"../image/products/2.jpg",
+    "optionName":"GPU",
+    "options":["RTX 3050","RTX 3050 Ti"],
+    "optionsPrice":[0,3000],
+    "stocks":25
+  },
+  {
+    "id":3,
+    "title":"HP Pavilion 14",
+    "price":["37999.00"],
+    "description":"A compact 14-inch laptop designed for everyday use and long battery life.",
+    "productType":"Laptop",
+    "image":"../image/products/3.jpg",
+    "optionName":"Color",
+    "options":["Silver","Blue"],
+    "optionsPrice":[0,0],
+    "stocks":50
+  },
+  {
+    "id":4,
+    "title":"MSI Katana GF66",
+    "price":["74999.00"],
+    "description":"A performance gaming laptop with Intel Core i7 and high refresh rate display.",
+    "productType":"Laptop",
+    "image":"../image/products/4.jpg",
+    "optionName":"Refresh Rate",
+    "options":["144Hz","165Hz"],
+    "optionsPrice":[0,2000],
+    "stocks":20
+  },
+
+  {
     "id":5,
-    "title":"Asus TUF Gaming A15 FA507NUR-LP051W | 15.6 144Hz | Ryzen 7 7435HS | 16GB RAM | 512GB SSD | RTX 4050 6GB | WIN 11 Home | PC Central ",
-    "price":["61,999","72,999"],
-    "multiPrice":true,
-    "description": "A gaming laptp with a 15.6-inch 144Hz display, and AMD Ryzen 7 7435HS processor, 16GB of DDR5 RAM, and a 512GB NVMe SSD.It features an NVIDIA GeForce RTX 4050 6GB graphics card for gaming and includes a 12-month warranty and Windows 11 Home.",
-    "productType":"Laptops",
-    "image":"../image/products/5.png",
-    "options":
-        ["mahal","barato"],
+    "title":"Intel Core i5-12400F",
+    "price":["9999.00"],
+    "description":"A 6-core 12th gen processor ideal for gaming and general builds.",
+    "productType":"PC Component",
+    "image":"../image/products/5.jpg",
+    "optionName":"Bundle",
+    "options":["Processor Only","With Cooler"],
+    "optionsPrice":[0,800],
+    "stocks":60
+  },
+  {
+    "id":6,
+    "title":"NVIDIA GeForce RTX 4060",
+    "price":["23999.00"],
+    "description":"A mid-range GPU offering great performance and DLSS 3 support.",
+    "productType":"PC Component",
+    "image":"../image/products/6.jpg",
+    "optionName":"Brand",
+    "options":["MSI","ASUS","Gigabyte"],
+    "optionsPrice":[0,500,700],
+    "stocks":30
+  },
+  {
+    "id":7,
+    "title":"Kingston Fury Beast 16GB DDR4",
+    "price":["2999.00"],
+    "description":"A reliable 3200MHz DDR4 RAM stick for smooth performance.",
+    "productType":"PC Component",
+    "image":"../image/products/7.jpg",
+    "optionName":"Speed",
+    "options":["2666MHz","3200MHz","3600MHz"],
+    "optionsPrice":[0,300,500],
     "stocks":100
-    }
+  },
+  {
+    "id":8,
+    "title":"Samsung 980 NVMe SSD 1TB",
+    "price":["4499.00"],
+    "description":"A fast NVMe SSD that delivers quick boot and loading times.",
+    "productType":"PC Component",
+    "image":"../image/products/8.jpg",
+    "optionName":"Heatsink",
+    "options":["None","With Heatsink"],
+    "optionsPrice":[0,400],
+    "stocks":55
+  },
+  {
+    "id":9,
+    "title":"ASUS B550-A Motherboard",
+    "price":["8999.00"],
+    "description":"A durable motherboard with PCIe 4.0 support for AMD Ryzen builds.",
+    "productType":"PC Component",
+    "image":"../image/products/9.jpg",
+    "optionName":"WiFi",
+    "options":["None","With WiFi"],
+    "optionsPrice":[0,1200],
+    "stocks":40
+  },
 
-    ,{
-    "id": 6,
-    "title": "MSI Katana 15 B13VEK-1005PH | 15.6 144Hz | Core i7-13620H | 16GB RAM | 1TB SSD | RTX 4060 8GB | WIN 11 Home | PC Central",
-    "price": ["68,999", "79,999"],
-    "multiPrice": true,
-    "description": "The MSI Katana 15 is a powerful gaming laptop featuring a 15.6-inch 144Hz IPS display, Intel Core i7-13620H processor, 16GB DDR5 RAM, and a 1TB NVMe SSD. It’s equipped with an NVIDIA GeForce RTX 4060 8GB GPU for high-performance gaming. Comes with Windows 11 Home and a 2-year MSI warranty.",
-    "productType": "Laptops",
-    "image": "../image/products/6.png",
-    "options": ["mahal", "barato"],
-    "stocks": 80
-    }
+  {
+    "id":10,
+    "title":"Logitech G502 Hero",
+    "price":["2499.00"],
+    "description":"A high-precision gaming mouse with adjustable DPI and weights.",
+    "productType":"Accessory",
+    "image":"../image/products/10.jpg",
+    "optionName":"Color",
+    "options":["Black","White"],
+    "optionsPrice":[0,0],
+    "stocks":80
+  },
+  {
+    "id":11,
+    "title":"Razer BlackWidow V3",
+    "price":["6799.00"],
+    "description":"A mechanical gaming keyboard with tactile switches and RGB lighting.",
+    "productType":"Accessory",
+    "image":"../image/products/11.jpg",
+    "optionName":"Switch Type",
+    "options":["Green","Yellow"],
+    "optionsPrice":[0,0],
+    "stocks":45
+  },
+  {
+    "id":12,
+    "title":"Sony WH-1000XM4",
+    "price":["14999.00"],
+    "description":"Noise-cancelling wireless headphones with premium sound quality.",
+    "productType":"Accessory",
+    "image":"../image/products/12.jpg",
+    "optionName":"Color",
+    "options":["Black","Silver"],
+    "optionsPrice":[0,0],
+    "stocks":35
+  },
+  {
+    "id":13,
+    "title":"Redragon Gaming Mousepad XXL",
+    "price":["799.00"],
+    "description":"An extra-large anti-slip gaming mousepad.",
+    "productType":"Accessory",
+    "image":"../image/products/13.jpg",
+    "optionName":"Design",
+    "options":["Black","Fire Edition"],
+    "optionsPrice":[0,100],
+    "stocks":120
+  },
+  {
+    "id":14,
+    "title":"Baseus USB-C Hub 7-in-1",
+    "price":["1299.00"],
+    "description":"A compact docking hub with HDMI, USB 3.0, and card reader support.",
+    "productType":"Accessory",
+    "image":"../image/products/14.jpg",
+    "optionName":"Version",
+    "options":["Standard","4K HDMI"],
+    "optionsPrice":[0,300],
+    "stocks":70
+  }
 ]
-
-

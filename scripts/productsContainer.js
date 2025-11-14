@@ -9,8 +9,8 @@ priceSlider.parentNode.insertBefore(priceLabel, priceSlider.nextSibling);
 
 // Load database
 async function loadDB() {
-  //const response = await fetch("https://raw.githubusercontent.com/MoogsKotobuki/E-COMMERCE/refs/heads/main/database/products.Json");
-  const response = await fetch("../database/products.json");
+  const response = await fetch("https://raw.githubusercontent.com/MoogsKotobuki/E-COMMERCE/refs/heads/main/database/products.Json");
+  //const response = await fetch("../database/products.json");
   const db = await response.json();
   return db;
 }

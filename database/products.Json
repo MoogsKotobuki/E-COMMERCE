@@ -70,32 +70,204 @@
         ["Special Edition","Aniversary Edition"],
     "optionsPrice":[0,1],
     "stocks":100
-    }
-
-    ,{
+    }, 
+    {
     "id":5,
-    "title":"Asus TUF Gaming A15 FA507NUR-LP051W | 15.6 144Hz | Ryzen 7 7435HS | 16GB RAM | 512GB SSD | RTX 4050 6GB | WIN 11 Home | PC Central ",
-    "price":["61,999","72,999"],
+    "title":"Acer Nitro 5",
+    "price":["42999.00","46999.00","52999.00"],
     "multiPrice":true,
-    "description": "A gaming laptp with a 15.6-inch 144Hz display, and AMD Ryzen 7 7435HS processor, 16GB of DDR5 RAM, and a 512GB NVMe SSD.It features an NVIDIA GeForce RTX 4050 6GB graphics card for gaming and includes a 12-month warranty and Windows 11 Home.",
-    "productType":"Laptops",
-    "image":"../image/products/5.png",
-    "options":
-        ["mahal","barato"],
-    "stocks":100
-    }
+    "description":"A mid-range gaming laptop powered by Ryzen 5 and GTX graphics.",
+    "productType":"Laptop",
+    "image":"https://m.media-amazon.com/images/I/71P--vXJpvL._AC_SL1500_.jpg",
+    "optionName":"Storage",
+    "options":["256GB SSD","512GB SSD","1TB SSD"],
+    "optionsPrice":[0,1,2],
+    "stocks":32
+  },
+  {
+    "id":6,
+    "title":"ASUS TUF Gaming F15",
+    "price":["49999.00","54999.00","61999.00"],
+    "multiPrice":true,
+    "description":"A durable gaming laptop with Intel Core i7 and RTX graphics.",
+    "productType":"Laptop",
+    "image":"https://m.media-amazon.com/images/I/81k4kElzP5L._AC_SL1500_.jpg",
+    "optionName":"RAM",
+    "options":["8GB","16GB","32GB"],
+    "optionsPrice":[0,1,2],
+    "stocks":25
+  },
+  {
+    "id":7,
+    "title":"HP Pavilion 15",
+    "price":["37999.00","40999.00"],
+    "multiPrice":true,
+    "description":"A lightweight laptop ideal for school and office tasks.",
+    "productType":"Laptop",
+    "image":"https://m.media-amazon.com/images/I/71WStjS84kL._AC_SL1500_.jpg",
+    "optionName":"Color",
+    "options":["Silver","Black"],
+    "optionsPrice":[0,1],
+    "stocks":58
+  },
+  {
+    "id":8,
+    "title":"Lenovo IdeaPad Gaming 3",
+    "price":["44999.00","52999.00"],
+    "multiPrice":true,
+    "description":"A Ryzen-powered gaming laptop known for strong thermals.",
+    "productType":"Laptop",
+    "image":"https://m.media-amazon.com/images/I/71a1q0H-vHL._AC_SL1500_.jpg",
+    "optionName":"Graphics",
+    "options":["GTX 1650","RTX 3050"],
+    "optionsPrice":[0,1],
+    "stocks":41
+  },
+  {
+    "id":9,
+    "title":"Dell Inspiron 14",
+    "price":["34999.00","38999.00"],
+    "multiPrice":true,
+    "description":"A compact and efficient productivity laptop.",
+    "productType":"Laptop",
+    "image":"https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_SL1500_.jpg",
+    "optionName":"Storage",
+    "options":["256GB SSD","512GB SSD"],
+    "optionsPrice":[0,1],
+    "stocks":77
+  },
 
-    ,{
-    "id": 6,
-    "title": "MSI Katana 15 B13VEK-1005PH | 15.6 144Hz | Core i7-13620H | 16GB RAM | 1TB SSD | RTX 4060 8GB | WIN 11 Home | PC Central",
-    "price": ["68,999", "79,999"],
-    "multiPrice": true,
-    "description": "The MSI Katana 15 is a powerful gaming laptop featuring a 15.6-inch 144Hz IPS display, Intel Core i7-13620H processor, 16GB DDR5 RAM, and a 1TB NVMe SSD. It’s equipped with an NVIDIA GeForce RTX 4060 8GB GPU for high-performance gaming. Comes with Windows 11 Home and a 2-year MSI warranty.",
-    "productType": "Laptops",
-    "image": "../image/products/6.png",
-    "options": ["mahal", "barato"],
-    "stocks": 80
-    }
+  {
+    "id":10,
+    "title":"Intel Core i5-12400F",
+    "price":["8499.00","8999.00"],
+    "multiPrice":true,
+    "description":"A 12th-gen Intel CPU great for gaming and productivity.",
+    "productType":"PC Component",
+    "image":"https://m.media-amazon.com/images/I/61fmD2B-zjL._AC_SL1500_.jpg",
+    "optionName":"Bundle",
+    "options":["CPU Only","With Cooler"],
+    "optionsPrice":[0,1],
+    "stocks":64
+  },
+  {
+    "id":11,
+    "title":"NVIDIA GeForce RTX 3060",
+    "price":["17999.00","18999.00","19999.00"],
+    "multiPrice":true,
+    "description":"A powerful GPU for high-refresh 1080p and 1440p gaming.",
+    "productType":"PC Component",
+    "image":"https://m.media-amazon.com/images/I/81j8l7XWIEL._AC_SL1500_.jpg",
+    "optionName":"Brand",
+    "options":["MSI","Gigabyte","ASUS"],
+    "optionsPrice":[0,1,2],
+    "stocks":19
+  },
+  {
+    "id":12,
+    "title":"Corsair Vengeance 16GB DDR4",
+    "price":["2399.00","2599.00","2899.00"],
+    "multiPrice":true,
+    "description":"High-performance DDR4 RAM for gaming rigs.",
+    "productType":"PC Component",
+    "image":"https://m.media-amazon.com/images/I/713l8qv5PFL._AC_SL1500_.jpg",
+    "optionName":"Speed",
+    "options":["2666 MHz","3200 MHz","3600 MHz"],
+    "optionsPrice":[0,1,2],
+    "stocks":102
+  },
+  {
+    "id":13,
+    "title":"Samsung 970 EVO Plus 1TB",
+    "price":["3999.00","4299.00"],
+    "multiPrice":true,
+    "description":"A super-fast NVMe SSD for rapid boot times.",
+    "productType":"PC Component",
+    "image":"https://m.media-amazon.com/images/I/81WZ6r9i10L._AC_SL1500_.jpg",
+    "optionName":"Warranty",
+    "options":["3 Years","5 Years"],
+    "optionsPrice":[0,1],
+    "stocks":84
+  },
+  {
+    "id":14,
+    "title":"MSI B550M PRO-VDH",
+    "price":["5499.00","5899.00"],
+    "multiPrice":true,
+    "description":"A dependable AMD motherboard with B550 chipset.",
+    "productType":"PC Component",
+    "image":"https://m.media-amazon.com/images/I/81r7JQpXtLL._AC_SL1500_.jpg",
+    "optionName":"Chipset Variant",
+    "options":["B550","B550M"],
+    "optionsPrice":[0,1],
+    "stocks":46
+  },
+
+  {
+    "id":15,
+    "title":"Logitech G502 Hero",
+    "price":["1899.00","1999.00"],
+    "multiPrice":true,
+    "description":"A precision gaming mouse with customizable weights.",
+    "productType":"Accessory",
+    "image":"https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_SL1500_.jpg",
+    "optionName":"Color",
+    "options":["Black","White"],
+    "optionsPrice":[0,1],
+    "stocks":221
+  },
+  {
+    "id":16,
+    "title":"Corsair K55 RGB Keyboard",
+    "price":["1499.00","1699.00"],
+    "multiPrice":true,
+    "description":"An RGB membrane keyboard suitable for gaming and office work.",
+    "productType":"Accessory",
+    "image":"https://m.media-amazon.com/images/I/81E4vzsP1LL._AC_SL1500_.jpg",
+    "optionName":"Lighting Mode",
+    "options":["3-Zone RGB","Full RGB"],
+    "optionsPrice":[0,1],
+    "stocks":143
+  },
+  {
+    "id":17,
+    "title":"Sony WH-CH520",
+    "price":["2799.00","2799.00","2799.00"],
+    "multiPrice":true,
+    "description":"Wireless headphones with long battery life and clear audio.",
+    "productType":"Accessory",
+    "image":"https://m.media-amazon.com/images/I/61u9q1s6cAL._AC_SL1500_.jpg",
+    "optionName":"Color",
+    "options":["Black","Blue","Beige"],
+    "optionsPrice":[0,1,2],
+    "stocks":65
+  },
+  {
+    "id":18,
+    "title":"Logitech C920 HD Webcam",
+    "price":["2499.00","2699.00"],
+    "multiPrice":true,
+    "description":"A popular webcam for meetings and streaming.",
+    "productType":"Accessory",
+    "image":"https://m.media-amazon.com/images/I/71iNwni9TsL._AC_SL1500_.jpg",
+    "optionName":"Bundle",
+    "options":["Camera Only","With Tripod"],
+    "optionsPrice":[0,1],
+    "stocks":54
+  },
+  {
+    "id":19,
+    "title":"Anker USB-C Hub 6-in-1",
+    "price":["1299.00","1599.00"],
+    "multiPrice":true,
+    "description":"A compact hub with HDMI, USB ports, and SD card reader.",
+    "productType":"Accessory",
+    "image":"https://m.media-amazon.com/images/I/61i7bVnZguL._AC_SL1500_.jpg",
+    "optionName":"Version",
+    "options":["6-in-1","8-in-1"],
+    "optionsPrice":[0,1],
+    "stocks":96
+  }
 ]
 
 

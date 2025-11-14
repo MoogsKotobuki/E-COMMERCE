@@ -51,7 +51,7 @@
                     <ul class="dropdown-menu ">
                         <li><a class="dropdown-item" href="pages/products.html?filter=1">Games</a></li>
                         <li><a class="dropdown-item" href="pages/products.html?filter=2">Laptops</a></li>
-                        <li><a class="dropdown-item" href="pages/products.html?filter=3">Accesories</a></li>
+                        <li><a class="dropdown-item" href="pages/products.html?filter=3">Accessories</a></li>
                         <li><a class="dropdown-item" href="pages/products.html?filter=4">PC Components</a></li>
                     </ul>
                     </div>
@@ -157,6 +157,15 @@
         </button>
     </div>
     
+    <!-- Recommended Products Section -->
+    <div class="container my-5" id="recommended-products">
+        <h1 class="text-center mb-4">Recommended Products</h1>
+        <div id="products-content">
+            <!-- Products will be dynamically inserted here by JS -->
+            <p class="text-center">Loading recommendations...</p>
+        </div>
+    </div>
+
     <!-- Floating Chat Icon -->
     <div id="techbot-icon"><img src="image/chatbot.png" height="32px"></div>
 
@@ -181,27 +190,28 @@
     <script src="scripts/message.js"></script>
 
     <script>
-
         updateCartCount();
 
-
         function updateCartCount() {
-        let cart = JSON.parse(localStorage.getItem("cart")) || [];
-        let totalCount = 0;
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+            let totalCount = 0;
 
-        // Sum up all quantities
-        cart.forEach(item => {
-            totalCount += item.quantity;
-        });
+            // Sum up all quantities
+            cart.forEach(item => {
+                totalCount += item.quantity;
+            });
 
-        // Update the span element
-        const counter = document.getElementById("cartCount");
-        if (counter) {
-            counter.textContent = totalCount;
+            // Update the span element
+            const counter = document.getElementById("cartCount");
+            if (counter) {
+                counter.textContent = totalCount;
+            }
         }
-        }
-
     </script>
+
+    <!-- New: Load recommendations script -->
+    <script src="scripts/recommendations.js"></script>
+
     <!-- Bootstap 5 Library Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

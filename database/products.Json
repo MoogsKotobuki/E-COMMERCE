@@ -44,31 +44,31 @@
 
     ,{
     "id":3,
-    "title":"Minecraft (PC)",
-    "price":["1500.00","2200.00"],
+    "title":"Terraria",
+    "price":["356.00"],
     "multiPrice":false,
     "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
     "productType":"Games",
-    "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1bD2tQCi94-0n4Jo3zWbIuUIDP_179kkFhqzn7N_dYFe1mbP9nSpnLYLDyI1mTrd-PhchJmqEe5mzeHV5iXnoF48sxLzcdt0e_ewgKxw6od_Zh7iAsguq6Ck",
-    "optionName":"Edition",
+    "image":"https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Terraria_Steam_artwork.jpg/250px-Terraria_Steam_artwork.jpg",
+    "optionName":"Platform",
     "options":
-        ["Standard","Deluxe"],
-    "optionsPrice":[0,0],
+        ["PC","PS4","PS5","Xbox-one","Xbox Series","Switch"],
+    "optionsPrice":[0,0,0,0,0,0],
     "stocks":100
     }
 
     ,{
     "id":4,
-    "title":"Minecraft (PC)",
-    "price":["1500.00","2200.00"],
+    "title":"Skyrim (PC)",
+    "price":["1199.00","1599.00"],
     "multiPrice":false,
-    "description":"Dive into an open world of building, crafting and survival in the ultimate sandbox builder. Gather resources, survive the night, and build an epic adventure one block at a time. Explore and craft your way through a completely open world where you can play with friends, build a block city, start a farm, mine deep into the ground, face mysterious enemies, or just experiment to the limits of your imagination! ",
+    "description":"Winner of more than 200 Game of the Year Awards, The Elder Scrolls V: Skyrim Special Edition brings the epic fantasy to life in stunning detail. The Special Edition includes the critically acclaimed game and add-ons with all-new features. ",
     "productType":"Games",
-    "image":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ1bD2tQCi94-0n4Jo3zWbIuUIDP_179kkFhqzn7N_dYFe1mbP9nSpnLYLDyI1mTrd-PhchJmqEe5mzeHV5iXnoF48sxLzcdt0e_ewgKxw6od_Zh7iAsguq6Ck",
+    "image":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIb0VRM7_ziSHFKDPdM1F23wDGZL49c-bZoTUhErM-Pm1GtliJ4kNGk5pzFc5WcsehhfVW83tpXzQK7OfNTD-bcs9WhQ2G",
     "optionName":"Edition",
     "options":
-        ["Standard","Deluxe"],
-    "optionsPrice":[0,0],
+        ["Special Edition","Aniversary Edition"],
+    "optionsPrice":[0,1],
     "stocks":100
     }
 
